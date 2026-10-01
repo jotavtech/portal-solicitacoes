@@ -1,0 +1,4 @@
+* text=auto
+*.sql text eol=lf
+package-lock.json text eol=lf
+*.png binary
