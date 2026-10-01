@@ -1,6 +1,6 @@
 # Registro de verificação do MVP
 
-Data: 01/10/2026. Ambiente observado: Windows, Node.js 24.16.0, npm 11.13.0 e Python 3.12.14. Sem commit ou execução remota de CI. Resultados abaixo são de execução local, não apenas comandos planejados.
+Data: 01/10/2026. Ambiente observado: Windows, Node.js 24.16.0, npm 11.13.0 e Python 3.12.14. Resultados locais observados, não apenas comandos planejados. Envio ao GitHub e estado observado do CI registrados abaixo.
 
 ## Verificações executadas
 
@@ -41,4 +41,12 @@ Em 01/10/2026, a medição na aba aberta revelou busca com 39 px de altura e sel
 
 ## Limites de execução externa
 
-CI foi escrito, mas não executado no GitHub. Deploy HTTPS, proxy em produção, Docker e outras plataformas não foram testados; não houve publicação ou envio. O guia DEPLOY.md descreve a configuração esperada, sem afirmar que foi executada. Não foi calculado percentual de cobertura. Prints são reais; vídeo opcional não foi produzido.
+CI iniciado no GitHub, ainda em andamento no registro da entrega. Deploy HTTPS, proxy em produção e Docker não foram testados; não houve envio ao recrutador. O guia DEPLOY.md descreve a configuração esperada, sem afirmar que foi executada. Não foi calculado percentual de cobertura. Prints são reais; vídeo opcional não foi produzido.
+
+## Envio ao GitHub
+
+Em 01/10/2026, a pedido do usuário, os 91 arquivos do projeto foram enviados ao repositório privado [jotavtech/portal-solicitacoes](https://github.com/jotavtech/portal-solicitacoes), branch main. Commit de implementação: d65655bbd2eb270beff5ac28141880f8866d5a77. Inclui código, lockfile, migrations, PRD/specs, documentação, testes e sete capturas reais. .env, bancos ativos, node_modules, builds e relatórios temporários foram excluídos do Git.
+
+O [workflow Quality checks](https://github.com/jotavtech/portal-solicitacoes/actions/runs/36905994819) está em andamento no registro desta entrega. Instalação npm ci, npm run check (tipos/lint/OpenAPI/42 testes/build) e 31 verificações preparatórias já passaram sobre Ubuntu. E2E e smoke da aplicação compilada ainda não têm resultado remoto confirmado. Não extrapolar os testes locais para aprovação integral do CI.
+
+A atualização documental do envio usa [skip ci], pois não altera o código; links e integridade da documentação foram conferidos localmente. Não houve deploy da aplicação, abertura de PR ou envio ao recrutador.

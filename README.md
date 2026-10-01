@@ -24,6 +24,13 @@ Execute todos os comandos **na raiz desta pasta**, onde está package.json. Em P
 
 ## Instalação e banco
 
+Código em [jotavtech/portal-solicitacoes](https://github.com/jotavtech/portal-solicitacoes). O repositório é privado e requer acesso autorizado. Para clonar:
+
+```sh
+git clone https://github.com/jotavtech/portal-solicitacoes.git
+cd portal-solicitacoes
+```
+
 ```sh
 npm ci
 ```
@@ -116,7 +123,7 @@ npm run build
 npm run evidence
 ```
 
-Esse comando usa porta 4180 e banco temporário; E2E usa 4173. As portas devem estar livres. Capturas estão em [docs/evidence](docs/evidence/README.md), relatórios de teste locais em playwright-report/test-results. Workflow de CI inclui tipos/lint/contrato/testes/build/E2E e verificações de especificação; execução remota ainda não foi observada.
+Esse comando usa porta 4180 e banco temporário; E2E usa 4173. As portas devem estar livres. Capturas estão em [docs/evidence](docs/evidence/README.md), relatórios de teste locais em playwright-report/test-results. Workflow de CI inclui tipos/lint/contrato/testes/build/E2E e verificações de especificação; execução remota iniciada em [GitHub Actions](https://github.com/jotavtech/portal-solicitacoes/actions/runs/36905994819), ainda em andamento no registro da entrega.
 
 ## Organização e documentação
 
@@ -139,4 +146,4 @@ docs/                    PRD, arquitetura, decisões, testes, memorial e evidên
 
 ## Limitações
 
-Processo único, SQLite em volume persistente, limitador de login em memória; sem papéis de atendimento especializados, auditoria, reabertura ou recuperação de senha. Duas edições simultâneas abertas seguem último write válido; avanço de status bloqueia edição/exclusão posteriores. Docker, CI/CD de deploy e vídeo não foram implementados. Publicação, envio ao recrutador e deploy externo não foram realizados.
+Processo único, SQLite em volume persistente, limitador de login em memória; sem papéis de atendimento especializados, auditoria, reabertura ou recuperação de senha. Duas edições simultâneas abertas seguem último write válido; avanço de status bloqueia edição/exclusão posteriores. Docker, CI/CD de deploy e vídeo não foram implementados. Código enviado ao GitHub em repositório privado. Envio ao recrutador e deploy externo não foram realizados.

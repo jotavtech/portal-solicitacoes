@@ -14,7 +14,7 @@ Especificação -> cenários -> teste que falha -> implementação mínima -> te
 | P3 | 02-03/10 | criar/listar/detalhar/editar/excluir com UI | REQ-01 a REQ-07, REQ-14 a REQ-16; autorização real | Implementado e verificado localmente |
 | P4 | 03/10 | status, filtros e paginação | REQ-08 a REQ-13 e atualização da interface | Implementado e verificado localmente |
 | P5 | 04/10 | dashboard, responsividade, erros e jornadas E2E | DASH-01 a DASH-06 e caminhos críticos | Implementado e verificado localmente |
-| P6 | 04-05/10 | README final, memorial, evidências e pacote/repositório | instalação limpa, suites/build, critérios RF/ENT completos | Documentação e pacote locais; publicação/deploy externo não realizados |
+| P6 | 04-05/10 | README final, memorial, evidências e pacote/repositório | instalação limpa, suites/build, critérios RF/ENT completos | Documentação, pacote e repositório GitHub entregues; CI remoto iniciado; deploy externo não realizado |
 
 ## P1: primeiro incremento de código
 

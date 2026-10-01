@@ -43,7 +43,7 @@ React renderiza conteúdo como texto; não usar HTML arbitrário para descriçõ
 
 Desenvolvimento: API e Vite, banco local. Produção simples: build do frontend servido pelo backend, `/api` reservado para API, fallback SPA apenas em rotas de página. 404 da API permanece JSON. Processo Node único e volume persistente para SQLite, diretório gravável e cópias de segurança documentadas. Não usar hospedagem com disco efêmero para persistência sem volume.
 
-`.env.example` define as variáveis implementadas; comandos descritos no README. Build, migration, seed e testes devem funcionar a partir de clone limpo. CI configurado para especificação/esquema, tipos, lint, unitários, integração, componentes, E2E e build; ainda não executado remotamente.
+`.env.example` define as variáveis implementadas; comandos descritos no README. Build, migration, seed e testes devem funcionar a partir de clone limpo. CI configurado para especificação/esquema, tipos, lint, unitários, integração, componentes, E2E e build; iniciado remotamente, ainda em andamento no registro da entrega; consultar VERIFICATION.md.
 
 ## Limitações e evolução
 
