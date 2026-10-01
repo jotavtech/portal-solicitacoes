@@ -33,7 +33,7 @@ Versões exatas em package.json/package-lock.json. Versões centrais: Node 24.16
 | ESLint, @eslint/js, typescript-eslint, globals e Prettier | Verificações e formatação reproduzíveis para legibilidade/manutenção. |
 | concurrently | Inicia API e Vite num comando e encerra ambos de forma coordenada. |
 | Python 3.12, unittest/sqlite3/json | Verificações preparatórias de esquema/contrato; não é linguagem do backend e não é requisito de execução do produto. |
-| Markdown, SQL, OpenAPI JSON, YAML/GitHub Actions | Especificações, migrations, documentação técnica, contrato e workflow de verificação. CI remoto iniciado, com execução completa ainda não confirmada no registro da entrega. |
+| Markdown, SQL, OpenAPI JSON, YAML/GitHub Actions | Especificações, migrations, documentação técnica, contrato e workflow de verificação. CI remoto executado e aprovado sobre Ubuntu no GitHub Actions. |
 
 pypdf/pypdfium2 foram usados para leitura/conferência do PDF inicial, fora das dependências do produto. O lockfile registra dependências transitivas; não são todas ferramentas escolhidas diretamente.
 
@@ -65,4 +65,4 @@ Identidade visual revisada a pedido do usuário após o MVP: referência ao seu 
 
 Fila sem papéis especializados, exclusão física e sem histórico/auditoria; sem atribuição de atendente, recuperação de senha ou reabertura. Limitador de login é local ao processo. SQLite/processo único simplifica a avaliação, mas múltiplas instâncias exigem rever banco, limitação e operação. Não há garantia de alta disponibilidade.
 
-Produção corporativa exigiria políticas reais de identidade/acesso, observabilidade, backup/restauração e disponibilidade. Melhorias possíveis: auditoria, versionamento otimista, atribuição/SLA e banco de servidor conforme escala. Instalação local Windows e jornadas Chromium foram verificadas; CI remoto foi iniciado; deploy HTTPS público não foi realizado.
+Produção corporativa exigiria políticas reais de identidade/acesso, observabilidade, backup/restauração e disponibilidade. Melhorias possíveis: auditoria, versionamento otimista, atribuição/SLA e banco de servidor conforme escala. Instalação local Windows e jornadas Chromium foram verificadas; CI remoto foi aprovado; deploy HTTPS público não foi realizado.

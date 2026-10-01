@@ -41,12 +41,12 @@ Em 01/10/2026, a medição na aba aberta revelou busca com 39 px de altura e sel
 
 ## Limites de execução externa
 
-CI iniciado no GitHub, ainda em andamento no registro da entrega. Deploy HTTPS, proxy em produção e Docker não foram testados; não houve envio ao recrutador. O guia DEPLOY.md descreve a configuração esperada, sem afirmar que foi executada. Não foi calculado percentual de cobertura. Prints são reais; vídeo opcional não foi produzido.
+CI executado e aprovado no GitHub sobre Ubuntu. Deploy HTTPS, proxy em produção e Docker não foram testados; não houve envio ao recrutador. O guia DEPLOY.md descreve a configuração esperada, sem afirmar que foi executada. Não foi calculado percentual de cobertura. Prints são reais; vídeo opcional não foi produzido.
 
 ## Envio ao GitHub
 
 Em 01/10/2026, a pedido do usuário, os 91 arquivos do projeto foram enviados ao repositório privado [jotavtech/portal-solicitacoes](https://github.com/jotavtech/portal-solicitacoes), branch main. Commit de implementação: d65655bbd2eb270beff5ac28141880f8866d5a77. Inclui código, lockfile, migrations, PRD/specs, documentação, testes e sete capturas reais. .env, bancos ativos, node_modules, builds e relatórios temporários foram excluídos do Git.
 
-O [workflow Quality checks](https://github.com/jotavtech/portal-solicitacoes/actions/runs/36905994819) está em andamento no registro desta entrega. Instalação npm ci, npm run check (tipos/lint/OpenAPI/42 testes/build) e 31 verificações preparatórias já passaram sobre Ubuntu. E2E e smoke da aplicação compilada ainda não têm resultado remoto confirmado. Não extrapolar os testes locais para aprovação integral do CI.
+O [workflow Quality checks](https://github.com/jotavtech/portal-solicitacoes/actions/runs/36905994819) terminou com sucesso nos jobs specification-checks e application sobre Ubuntu. Conferidos nos logs: instalação npm ci, npm run check (tipos/lint/OpenAPI/42 testes/build), 31 verificações Python, 12 jornadas Playwright, migrations, seed e smoke da aplicação compilada. Commit de código validado: d65655bbd2eb270beff5ac28141880f8866d5a77. Os commits posteriores atualizam somente documentação e usam [skip ci].
 
 A atualização documental do envio usa [skip ci], pois não altera o código; links e integridade da documentação foram conferidos localmente. Não houve deploy da aplicação, abertura de PR ou envio ao recrutador.

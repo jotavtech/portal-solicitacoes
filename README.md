@@ -123,7 +123,7 @@ npm run build
 npm run evidence
 ```
 
-Esse comando usa porta 4180 e banco temporário; E2E usa 4173. As portas devem estar livres. Capturas estão em [docs/evidence](docs/evidence/README.md), relatórios de teste locais em playwright-report/test-results. Workflow de CI inclui tipos/lint/contrato/testes/build/E2E e verificações de especificação; execução remota iniciada em [GitHub Actions](https://github.com/jotavtech/portal-solicitacoes/actions/runs/36905994819), ainda em andamento no registro da entrega.
+Esse comando usa porta 4180 e banco temporário; E2E usa 4173. As portas devem estar livres. Capturas estão em [docs/evidence](docs/evidence/README.md), relatórios de teste locais em playwright-report/test-results. Workflow de CI inclui tipos/lint/contrato/testes/build/E2E e verificações de especificação; execução remota aprovada em [GitHub Actions](https://github.com/jotavtech/portal-solicitacoes/actions/runs/36905994819).
 
 ## Organização e documentação
 

@@ -28,6 +28,6 @@ Cenários implementados em api.test.ts, contratos/password/config/openapi.test.t
 
 Prefixo de todos os endpoints: `/api`. Atualizar estado por evidência; `Especificado` não significa `Implementado` ou `Testado`. Um requisito só fica concluído quando código, teste adequado, documentação e critério de aceite forem verificados.
 
-Instalação limpa e comandos verificados no Windows. CI remoto iniciado, ainda em andamento no registro da entrega; deploy público não executado. Prints reais atendem ENT-005; vídeo é opcional e não produzido. Não extrapolar resultados para TLS ou plataformas não testadas.
+Instalação limpa e comandos verificados no Windows. CI remoto aprovado; deploy público não executado. Prints reais atendem ENT-005; vídeo é opcional e não produzido. Não extrapolar resultados para TLS ou plataformas não testadas.
 
 Revisão visual solicitada pelo usuário: SPEC-004 complementa NFR-004. Cabeçalho, tipografia, cores, indicadores, lista, login e formulários revisados; ações e regras preservadas. Verificação por jornadas desktop/mobile, componentes, build e seis capturas reais atualizadas.

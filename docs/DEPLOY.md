@@ -35,4 +35,4 @@ Sessões são persistidas mas respeitam expiração, logout e rotação; nenhuma
 
 ## O que foi verificado localmente
 
-Instalação limpa em Windows com Node 24.16; migrations e seed repetidos; tipos/lint/testes/build; frontend/API reais em Chromium. Detalhes e limites em VERIFICATION.md. CI remoto iniciado; execução completa ainda não confirmada. Execução com domínio público, TLS real e serviço de sistema não foi observada.
+Instalação limpa em Windows com Node 24.16; migrations e seed repetidos; tipos/lint/testes/build; frontend/API reais em Chromium. Detalhes e limites em VERIFICATION.md. CI remoto executado e aprovado sobre Ubuntu no GitHub Actions. Execução com domínio público, TLS real e serviço de sistema não foi observada.
